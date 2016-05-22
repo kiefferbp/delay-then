@@ -1,0 +1,23 @@
+{
+  "name": "delay-then",
+  "version": "1.0.0",
+  "description": "A better setTimeout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiefferbp/wait-then.git"
+  },
+  "keywords": [
+    "setTimeout",
+    "promises"
+  ],
+  "author": "Brian Kieffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiefferbp/wait-then/issues"
+  },
+  "homepage": "https://github.com/kiefferbp/wait-then#readme"
+}
