@@ -3,7 +3,7 @@
 
     var promiseSupport = (typeof "Promise" !== undefined && Promise.toString().indexOf("[native code]") !== -1);
 
-    module.exports.wait = function (milliseconds, args) {
+    module.exports = function (milliseconds, args) {
         if (promiseSupport) {
             // just return a promise instead of creating a "then" method
             return new Promise(function (resolve, reject) {
