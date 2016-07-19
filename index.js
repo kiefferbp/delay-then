@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    var promiseSupport = (typeof "Promise" !== undefined && Promise.toString().indexOf("[native code]") !== -1);
+    var promiseSupport = (typeof Promise !== "undefined" && Promise.toString().indexOf("[native code]") !== -1);
 
     module.exports = function (milliseconds, args) {
         if (promiseSupport) {
